@@ -1,11 +1,11 @@
 nginx:
   name: wp-proxy
   labels:
-    id: C0929542
+    id: C0927678
     app: wordpress
     env: dev
   image:
-    repository: manabpokhrel7/nginx
+    repository: dhananjayakafle/custom-nginx
     tag: "latest"
     pullPolicy: IfNotPresent
   replicas: 1
