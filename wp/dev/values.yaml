@@ -1,7 +1,7 @@
 wp:
   name: wpapp
   labels:
-    id: C0927678
+    id: C0929542
     app: wordpress
     env: dev
   image:
